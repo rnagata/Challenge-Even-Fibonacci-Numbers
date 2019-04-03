@@ -51,6 +51,7 @@ function _generateFibonacciSequence (maxFibValue){
 
   fibonacciNumbers.push(firstValue);
   fibonacciNumbers.push(secondValue);
+  
   while (calcValue <= maxFibValue){
     fibonacciNumbers.push(calcValue);
     firstValue = secondValue;
